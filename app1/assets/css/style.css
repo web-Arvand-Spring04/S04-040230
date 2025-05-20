@@ -1,18 +1,44 @@
 @charset "UTF-8";
-@import url("https://v1.fontapi.ir/css/Estedad");
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://v1.fontapi.ir/css/IranNastaliq');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
+
+@font-face {
+  font-family: compidan;
+  src: url(../fonts/Vazir-Black.ttf) format("truetype");
+  src: url(../fonts/Vazir-Black.eot) format("eot");
+  src: url(../fonts/Vazir-Black.woff) format("woff");
+  src: url(../fonts/Vazir-Black.woff2) format("woff2");
+}
+@font-face {
+  font-family: compidan-thin;
+  src: url(../fonts/Vazir-Thin.ttf) format("truetype");
+  src: url(../fonts/Vazir-Thin.eot) format("eot");
+  src: url(../fonts/Vazir-Thin.woff) format("woff");
+  src: url(../fonts/Vazir-Thin.woff2) format("woff2");
+}
+
+/* asterisk */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   direction: rtl;
-  font-family: estedad;
+
+  /* font-family: compidan-thin; */
+  font-family: Iran Nastaliq, sans-serif;
 }
 
 .nav {
   background-color: rgb(173, 134, 209);
   height: 43px;
   /* text-align: center; */
+
+}
+.nav span{
+  font-family: compidan;
 }
 
 #aboutus {
@@ -36,7 +62,7 @@ body {
   font-size: 35px;
   padding-top: 40px;
 }
-.body{
+.body {
   background-color: aqua;
   margin: 45px 15px 0px 5px;
   padding: 20px 10px;
@@ -44,4 +70,17 @@ body {
   box-shadow: 6px 8px 6px 0px #a19696;
   text-align: justify;
   text-indent: 10px;
+}
+
+.music{
+  font-family: "Monsieur La Doulaise", cursive;
+}
+
+.intro h1{
+  font-family: "Lalezar", sans-serif;
+}
+
+.dnld{
+  color: red;
+  font-size: 40px;
 }
